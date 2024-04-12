@@ -43,6 +43,7 @@ img {
 .google-logo {
   width: 250px;
   margin-top: 150px;
+  margin-bottom: 0px;
 }
 .search-box {
   display: flex;
@@ -51,7 +52,7 @@ img {
   padding: 10px 15px;
   width: 40%;
   border-radius: 15px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 .search-box input {
   border: none;
@@ -85,11 +86,13 @@ footer {
   height: 100px;
   background-color: lightgray;
   padding: 10px;
+  font-size: 0.9em;
 }
 .footer-links {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-size: 0.9em;
 }
 footer p {
   text-align: center;
@@ -99,4 +102,10 @@ footer p {
   display: flex;
   justify-content: space-between;
   width: 30%;
+}
+.right-icons{
+  display:flex;
+  width:15%;
+  justify-content:space-between
+
 }
